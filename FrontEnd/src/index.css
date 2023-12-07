@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputBox {
+  display: block;
+  margin: 10px 10px 0px 10px;
+  padding: 7px;
+  width: 80%;
+  border: 1px solid green;
+}

@@ -1,0 +1,15 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 60
+      arrivalRate: 5
+  defaults:
+    timeout: 15000  # Set the timeout value in milliseconds    
+
+scenarios:
+  - flow:
+      - post:
+          url: '/login'
+          json:
+            email: 'zaeem@email.com'
+            password: 'abc123'
